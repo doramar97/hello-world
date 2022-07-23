@@ -1,7 +1,8 @@
 <form action="action_page.php">
   <div class="container">
     <h1>New user Register for DevOps Learning,Dor's Website!</h1>
-    <h1>This is a change commited by dor, then build and deployed with Jenkins server to the tomcat server</h1>
+    <h2>This is a change commited by dor, then build and deployed with Jenkins server to the tomcat server</h2>
+    <h2>Automated Change using poll SCM</h2>
     <p>Please fill in this form to create an account.</p>
     <hr>
      

@@ -1,17 +1,23 @@
 <form action="action_page.php">
   <div class="container">
     <h1>New user Register for DevOps Learning,Dor's Website!</h1>
-    <h2>This is a change commited by dor, then build and deployed with Jenkins server to the tomcat server</h2>
-    <h2>Automated Change using poll SCM</h2>
+    <br>
+
+    <p>Whenever I will change the code in the Github repository,</p>
+    <p>The code will be automatically deployed into a Docker container</p>
+    <p>Triggerd by a Jenkins job</p>
+
     <p>Please fill in this form to create an account.</p>
     <hr>
      
     <label for="Name"><b>Enter Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
+    <br>
     
     <label for="mobile"><b>Enter mobile</b></label>
     <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
+    <br>
     <br>
 
     <label for="email"><b>Enter Email</b></label>
